@@ -1,0 +1,271 @@
+.control-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.controlPannel {  
+    position: fixed;       
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 5%;       
+    width: 50%;
+    height: 700px;
+    background-color: rgba(13, 39, 97, 0.8);
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #000033;   
+}
+
+.controlPannel h1{
+    color: #ffffff;   
+   
+  }
+
+.controlPannel div{
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+
+  }
+
+.controlPannel label {
+    margin-left: 10%;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+
+  }
+  
+.controlPannel input {
+    padding: 5px;
+    font-size: 16px;
+    resize: vertical;
+    border: 1px solid #ccc;
+    color: #171d77;
+    border-radius: 4px;
+    height: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+.controlPannel textarea {
+  padding: 5px;
+  font-size: 16px;
+  resize: vertical;
+  border: 1px solid #ccc;
+  color: #171d77;
+  border-radius: 4px;
+  height: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  resize: none;
+
+}
+
+.controlPannel button {
+    
+    background-color: #5d1cc7; 
+    color: white; 
+    border: 2px solid #d3d3d3; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px;
+    text-align: center; 
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.controlPannel button:hover {
+    background-color: white; 
+    color: #4e18a5; 
+    border-color: #4e18a5; 
+}
+
+
+.eventListPannel{   
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 30px;
+    margin-right: 5%;    
+    width: 90%;
+    
+    background-color: rgba(13, 39, 97, 0.7);    
+
+}
+
+.cardDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 90%;  
+  margin: 10px;
+
+}
+
+.cardDiv img {
+
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+ 
+}
+
+.cardDiv button {
+  margin-left: 5%;
+  background-color: #5d1cc7; 
+  color: white; 
+  border: 2px solid #d3d3d3; 
+  padding: 10px 20px; 
+  margin: 20px;
+  font-size: 16px;
+  cursor: pointer; 
+  border-radius: 5px;
+  text-align: center; 
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.cardDiv button:hover {
+  background-color: white; 
+  color: #4e18a5; 
+  border-color: #4e18a5; 
+}
+
+.cardDivInfo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.cardDivInfo h1{
+  color: #171d77;   
+  padding: 5px;
+}
+
+.cardDivInfo label{
+  color: #171d77;   
+  padding: 5px;
+  font-size: 20px;
+}
+
+
+.cardDivInfo button {
+  margin: 0;
+  background-color: #5d1cc7; 
+  color: white; 
+  border: 2px solid #d3d3d3; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  cursor: pointer; 
+  border-radius: 5px;
+  text-align: center; 
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.cardDivInfo button:hover {
+  background-color: white; 
+  color: #4e18a5; 
+  border-color: #4e18a5; 
+}
+
+
+.customImput {
+  padding: 2px;
+  font-size: 16px;
+  resize: vertical;
+  border: 1px solid #ccc;
+  color: #171d77;
+  border-radius: 4px;
+  height: 30px;
+ 
+
+}
+
+
+.event-table {  
+  margin-top: 20px;    
+  border-collapse: collapse;
+  font-size: 20px;
+  color: #070707;
+  width: 80%;
+  
+}
+
+
+.event-table th, .event-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.event-table th {
+  background-color: #818ed6;
+  color: #fff;
+  text-align: left;
+  
+  
+}
+
+.event-table tr {
+  background-color: #bebeca;  
+
+  }
+
+.event-table tr:nth-child(even) {
+  background-color: #d3d1df;
+ 
+}
+
+.event-table tr:hover {
+  background-color: #adabb9;
+}
+
+
+
+
+.orderInfoPannel { 
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 70%;  
+  color: #333;
+  line-height: 1.5;  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+
+.orderInfoPannel label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 2px;
+  color: #555;
+}
+
+.orderInfoPannel label:first-child {
+  font-weight: bold;
+  font-size: 18px;
+  color: #1f497d;
+}
+
+.orderInfoPannel label:last-child {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ff0000;
+}
+    

@@ -1,0 +1,39 @@
+.menu-bar {      
+    background-color: rgba(13, 39, 97, 0.7);
+    width: 100%;  
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+    
+  }
+  .menu-bar h1{
+    color: #ffffff;
+    margin-left: 20%;
+    padding: 5px;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    margin-right: 20%;
+  }
+  
+  .menu-bar ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    cursor: pointer; 
+  }
+  
+  .menu-bar ul li a:hover {
+    text-decoration: underline;
+  }
+ 
+ 

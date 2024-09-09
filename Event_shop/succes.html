@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="css/login.css">   
+    <link rel="stylesheet" href="css/index.css"> 
+
+ 
+    <script src="js/cookies.js" defer></script>
+    
+</head>
+<body>
+    <div class="login-container">
+        <h1 style="color:green;">Payment was successful!</h1>
+        <p>
+        <p>Return to the shop in <span id="countdown">10</span> seconds...</p>             
+    </div>
+
+</body>
+</html>
+
+<script>
+
+  setTimeout(function() {
+      window.location.href = "index.html"; 
+  }, 10000);
+  
+  let countdown = 10;
+  let countdownElement = document.getElementById('countdown'); 
+  
+  let timer = setInterval(function() {
+      countdown--;
+      if (countdownElement) {
+          countdownElement.textContent = countdown;
+      }
+      if (countdown <= 0) {
+          clearInterval(timer);
+      }
+  }, 1000);
+  </script>

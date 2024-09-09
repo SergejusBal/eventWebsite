@@ -1,0 +1,117 @@
+body  {   
+    background-image: url("../img/hero_img.webp");
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 100vh;     breaks infine scroll*/ 
+  
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;       
+    margin: 0 auto;
+  }
+
+.content-container {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 100%;
+}  
+
+.cardDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(13, 39, 97, 0.7);
+  border-radius: 10px;
+  width: 70%;  
+  margin: 10px;
+  
+}
+  
+.cardDiv img {
+
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+  
+}
+  
+  .cardDiv button {
+    margin-left: 5%;
+    background-color: #5d1cc7; 
+    color: white; 
+    border: 2px solid #d3d3d3; 
+    padding: 10px 20px; 
+    margin: 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px;
+    text-align: center; 
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  }
+  
+  .cardDiv button:hover {
+    background-color: white; 
+    color: #4e18a5; 
+    border-color: #4e18a5; 
+  }
+  
+  .cardDivInfo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .cardDivInfo h1{
+    color: #ffffff;   
+    padding: 5px;
+    font-size: 35px;
+  }
+  
+  .cardDivInfo label{
+    color: #ffffff;   
+    padding: 5px;
+    font-size: 25px;
+  }
+  
+  
+  .cardDivInfo button {
+    margin: 0;
+    background-color: #5d1cc7; 
+    color: white; 
+    border: 2px solid #d3d3d3; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px;
+    text-align: center; 
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  }
+  
+  .cardDivInfo button:hover {
+    background-color: white; 
+    color: #4e18a5; 
+    border-color: #4e18a5; 
+  }
+
+  
+.customImput {
+  padding: 2px;
+  font-size: 16px;
+  resize: vertical;
+  border: 1px solid #ccc;
+  color: #171d77;
+  border-radius: 4px;
+  height: 30px;
+ 
+
+}
